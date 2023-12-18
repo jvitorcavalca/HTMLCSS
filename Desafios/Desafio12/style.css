@@ -101,6 +101,20 @@ a:hover{
     text-decoration: underline;
 }
 
+footer p{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    
+}
+footer a{
+    font-weight: bolder;
+}
+
+
 
 
 
