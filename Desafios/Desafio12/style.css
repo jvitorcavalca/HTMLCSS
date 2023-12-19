@@ -69,10 +69,11 @@ h1{
     line-height: 2em;
     font-size: 3.5vw;
     display: block;
-    padding: 5px;
-    
+    padding: 15px;
     max-width: 900px;
     max-height: 900px;
+    
+    
     
     
 }
