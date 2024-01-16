@@ -1,7 +1,10 @@
+@charset "UTF-8";
+
 *{
     padding: 0;
     margin: 0;
 }
+
 
 header{
     min-height: 150px;
@@ -16,18 +19,18 @@ header{
 h1{
     color: white;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 50px;
     font-size: 7vw;
-    letter-spacing: 2px;
+    font-variant: small-caps;
     font-family: 'Passion One', sans-serif;
 }
 
 .pheader{
     color: white;
     text-align: center;
-    padding-top: 5px;
+    padding-bottom: 50px;
     font-family: sans-serif;
-    margin-bottom: 50px;
+    
     
 }
 
@@ -92,13 +95,14 @@ h1{
     
 }
 
-a{
+header a, footer a{
     text-decoration: none;
     color: white;
+    font-weight: bolder;
     
 }
 
-a:hover{
+header a:hover, footer a:hover{
     text-decoration: underline;
 }
 
@@ -111,8 +115,10 @@ footer p{
     letter-spacing: 1px;
     
 }
-footer a{
-    font-weight: bolder;
+
+article{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 
